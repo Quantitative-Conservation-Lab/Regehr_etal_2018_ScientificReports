@@ -17,7 +17,7 @@ Large carnivores are imperiled globally, and characteristics making them vulnera
 
 2. [recruitment_analysis](./recruitment_analysis/): This folder contains the code to load data and run the recruitment analysis (yearlings [c1s] per adult female). It also contains the code to generate the JAGS file for the Bayesian implementation.
 
-3. [composition_analysis](./density_extrapolation_analysis/): This folder contains the code to run the density extrapolation.
+3. [density_extrapolation_analysis](./density_extrapolation_analysis/): This folder contains the code to run the density extrapolation.
 
 
 ## Data
