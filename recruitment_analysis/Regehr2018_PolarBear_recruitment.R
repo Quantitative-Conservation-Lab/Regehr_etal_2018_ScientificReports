@@ -27,7 +27,7 @@ rm(list=ls())
 library(jagsUI)
 
 #load data
-dat <- read.table( "Regehr2018_C1perAF_data.txt", header = TRUE, sep = " " )
+dat <- read.table( "~/Regehr_etal_2018_ScientificReports/data/Regehr2018_C1perAF_data.txt", header = TRUE, sep = " " )
 
 #format data
 year<-rownames(table(dat$year))

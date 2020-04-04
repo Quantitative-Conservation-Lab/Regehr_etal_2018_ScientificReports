@@ -24,7 +24,7 @@
 rm(list=ls())
 
 #load data
-dat <- dget("Regehr2018_dextrp_data.txt")
+dat <- dget("~/Regehr_etal_2018_ScientificReports/data/Regehr2018_dextrp_data.txt")
 mean.pred <- dat$mean.pred      #mean RSF habitat-quality metric
 prop.in <- dat$prop.in          #proportion of study population inside study area at any given time during sampling period
 grid.xy <- dat$grid.xy          #state space 25 x 25 km grid

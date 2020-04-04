@@ -27,7 +27,7 @@ rm(list=ls())
 library(jagsUI)
 
 # Load data
-jags.data <- dget("jags_data.txt")
+jags.data <- dget("~/Regehr_etal_2018_ScientificReports/data/jags_data.txt")
 
 #Options for first year stage distribution
 ssd<-c(0.05,0.04,0.15,0.13,0.09,0.07,0.05,0.04,0.03,0.35)  # SSD used in manuscript (Regehr et al. 2017)
@@ -36,7 +36,7 @@ ssd<-c(0.05,0.04,0.15,0.13,0.09,0.07,0.05,0.04,0.03,0.35)  # SSD used in manuscr
 
 
 #load intial values for state processes (reasonable starting values prevents JAGS from crashing)
-state_inits <- dget("state_inits.txt")
+state_inits <- dget("~/Regehr_etal_2018_ScientificReports/data/state_inits.txt")
 
 #initial values
 inits <- function(){list(
